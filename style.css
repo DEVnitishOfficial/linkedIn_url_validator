@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    gap: 30px;
+    font-size: 30px;
+   background: linear-gradient(to right,yellow,pink,blue);
+}
+input{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+button{
+    border-radius: 10px ;
+    border: 2px solid pink;
+    font-size: 30px;
+    padding: 10px;
+    background: rgb(46, 182, 25, 0.7);
+}
+button:hover{
+    background: rgb(46, 182, 25);
+
+}
